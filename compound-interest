@@ -1,0 +1,7 @@
+<?php
+    $P=8000;
+    $R=12;
+    $T=2;
+    $CI = $P*((1+($R/100))**$T-1);
+    echo "The compound interest for the amount $P is ".$CI;
+?>
