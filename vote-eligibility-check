@@ -1,0 +1,9 @@
+<?php
+    $a = 17;
+    if ($a >= 18){
+        echo "eligible to vote";
+    }
+    else{
+        echo "not eligible to vote";
+    }
+?>
