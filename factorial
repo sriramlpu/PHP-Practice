@@ -1,0 +1,9 @@
+<?php
+   $a=120;
+   $fact = 1;
+   while($a>1){
+       $fact *= $a;
+       $a--;
+   }
+   echo $fact;
+?>
