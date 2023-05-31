@@ -1,0 +1,17 @@
+<?php
+   $a = 7;
+   $sum = 0;
+   for($i=1;$i<$a;$i++){
+       if ($a % $i==0){
+           $sum += $i;
+       }
+   }
+   
+   if ($a === $sum){
+       echo "$a is a perfect number";
+   }
+   else{
+       echo "$a is not a perfect number";
+   }
+   
+?>
