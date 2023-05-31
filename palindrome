@@ -7,10 +7,10 @@
    }
    
    if $a === $b{
-       echo "given string is a palindrome"
+       echo "given string is a palindrome";
    }
    else{
-       echo "given string is not a palindrome"
+       echo "given string is not a palindrome";
    }
    
 ?>
