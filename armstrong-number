@@ -1,0 +1,17 @@
+<?php
+   $a = 1634; //9494 //153
+   $arr_of_a = str_split($a);
+   $len_of_arr = count($arr_of_a);
+   $sum = 0;
+   for ($i=0;$i<$len_of_arr;$i++){
+       $sum += ($arr_of_a[$i])**$len_of_arr;
+   }
+   if ($sum === $a){
+       echo "given number is armstrong number";
+   }
+   else{
+       echo "given number is not a armstrong number";
+   }
+   
+   
+?>
