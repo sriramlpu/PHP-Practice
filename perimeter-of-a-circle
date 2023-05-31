@@ -1,0 +1,7 @@
+<?php
+   $r = 4;
+   $pie=3.14;
+   $perimeter_of_circle = 2*$pie*$r;
+   echo "perimeter of a circle = ".$perimeter_of_circle;
+?>
+//25.12 is the answer
