@@ -1,0 +1,16 @@
+<?php
+    $a = 17;
+    $g = "m";
+    if ($a>=21 && $g==='m'){
+        echo "Male gender is eligible for marriage";
+    }
+    elseif ($a>=18 && $g==='f'){
+        echo "Female gender eligible for marriage";
+    }
+    elseif (($g==='m' or $g==='f') && ($a < 18)){
+        echo "What ever the gender they are not eligible for marriage as they are minors";
+    }
+    else{
+        echo "don't know the criteria";
+    }
+?>
