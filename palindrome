@@ -1,0 +1,16 @@
+<?php
+   $a = "madam";
+   $len_of_a = strlen($a);
+   $b="";
+   for($i=$len_of_a-1;$i>=0;$i--){
+       $b .= $a[$i];
+   }
+   
+   if $a === $b{
+       echo "given string is a palindrome"
+   }
+   else{
+       echo "given string is not a palindrome"
+   }
+   
+?>
