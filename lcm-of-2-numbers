@@ -1,0 +1,18 @@
+<?php
+   $a=70;
+   $b=80;
+   if ($a>=$b){
+       $max_number = $a;
+   }
+   else{
+       $max_number = $b;
+   }
+   $prime_number = 0;
+   for($i=$max_number; $i<=$a*$b; $i++){
+       if ($i%$a==0 && $i%$b==0){
+           $prime_number = $i;
+           break;
+       }
+   }
+  echo $prime_number;
+?>
