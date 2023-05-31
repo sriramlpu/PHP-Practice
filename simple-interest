@@ -1,0 +1,7 @@
+<?php
+    $P=8000;
+    $R=12;
+    $T=2;
+    $SI = ($P*$R*$T)/100;
+    echo "The simple interest for the amount $P is ".$SI;
+?>
