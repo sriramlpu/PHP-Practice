@@ -1,0 +1,13 @@
+<?php
+    function fact($a){
+        $result = 1;
+        for($i=$a;$i>=1;$i--){
+            $result *= $i;
+        }
+        return $result;
+    }
+    
+    $a=5;
+    $res=fact($a);
+    print($res);
+?>
