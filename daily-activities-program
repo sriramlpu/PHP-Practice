@@ -1,0 +1,16 @@
+<?php
+$a="1:00PM";
+$b="mon";
+if($a="8:30AM" && ($b="mon" || $b="tue" || $b="wed" || $b="thu" || $b="fri")){
+    print("Time to go to class");
+}
+elseif($a="1:00PM" && ($b="mon" || $b="tue" || $b="wed" || $b="thu" || $b="fri" )){
+    print("lunch time");
+}
+elseif($a="4:30PM" && ($b="mon" || $b="tue" || $b="wed" || $b="thu" || $b="fri" )){
+    print("Time to go to hostel");
+}
+else{
+    print("It's holiday");
+}
+?>
