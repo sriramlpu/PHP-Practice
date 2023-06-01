@@ -1,0 +1,15 @@
+<?php
+    function table($a,$b){
+        for($i=$a;$i<=$b;$i++){
+            for($j=1;$j<=$b;$j++){
+                print($i." X ".$j." = ".$i*$j);
+                print("\n");
+            }
+            print("\n");
+        }
+    }
+    
+    $a=2;
+    $b=20;
+    table($a,$b);
+?>
