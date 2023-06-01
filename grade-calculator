@@ -1,0 +1,25 @@
+<?php
+    function grade($a,$b){
+        $total_percent = ($b/$a)*100;
+        if ($total_percent>=90){
+            $result = 'Grade A';
+        }
+        elseif ($total_percent>=80 && $total_percent<=89){
+            $result = 'Grade B';
+        }
+        elseif ($total_percent>=70 && $total_percent<=79){
+            $result = 'Grade C';
+        }
+        elseif ($total_percent>=60 && $total_percent<=69){
+            $result = 'Grade D';
+        }
+        else {
+            $result = "FAIL";
+        }
+        return $result;
+    }
+    $total_marks = 600;
+    $marks_scored=350;
+    $res=grade($total_marks,$marks_scored);
+    print($res);
+?>
