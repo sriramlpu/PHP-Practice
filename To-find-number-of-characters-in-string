@@ -1,0 +1,29 @@
+<?php
+
+    $a = "sai sri ram";
+
+    $index = 0;
+
+    $count = 0;
+
+    while(isset($a[$index])){
+
+        if ($a[$index] == ' '){
+
+            $index++;
+
+        }
+
+        else{
+
+            $index++;
+
+            $count++;
+
+        }
+
+    }
+
+    echo $count;
+
+?>
