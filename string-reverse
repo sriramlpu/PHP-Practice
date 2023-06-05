@@ -1,0 +1,27 @@
+<?php
+
+$a = "sai sri ram";
+
+$rev="";
+
+$index =0;
+
+$count=0;
+
+while(isset($a[$index])){
+
+  $index++;
+
+  $count++;
+
+}
+
+for($i=0;$i<$count;$i++){
+
+    $rev = $a[$i].$rev;
+
+}
+
+echo $rev;
+
+?>
