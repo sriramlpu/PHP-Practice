@@ -1,0 +1,10 @@
+<?php
+    $a = array(2,4,8,1,6);
+    $max_value= $a[0];
+    foreach ($a as $value){
+        if ($max_value<$value){
+            $max_value = $value;
+        }
+    }
+    echo $max_value;
+?>
