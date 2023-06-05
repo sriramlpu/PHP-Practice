@@ -1,0 +1,9 @@
+<?php
+    $a = array(2,4,8,1,6);
+    $sqs = array();
+    foreach ($a as $value){
+        $sqs[]= $value*$value;
+    }
+    $result = array_combine($a,$sqs);
+    print_r($result);
+?>
