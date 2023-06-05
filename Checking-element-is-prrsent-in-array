@@ -1,0 +1,35 @@
+<?php
+
+    $a = array(2,4,8,1,6);
+
+    $search_value= 9;
+
+    $found=false;
+
+    foreach ($a as $value){
+
+        if ($search_value===$value){
+
+            $found = true;
+
+            break;
+
+        }
+
+    }
+
+    
+
+    if ($found){
+
+        echo $search_value." is present in the given array";
+
+    }
+
+    else{
+
+        echo $search_value." doesn't exist in the given array";
+
+    }
+
+?>
