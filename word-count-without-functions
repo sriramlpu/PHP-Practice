@@ -1,0 +1,21 @@
+<?php
+$a = "Sai Sri Ram";
+$wf = false;
+$index = 0;
+$count = 0;
+
+while (isset($a[$index])) {
+    if ($a[$index] == ' ') {
+        $wf = true;
+        $index++;
+    } else if (!$wf) {
+        $wf = true;
+        $count++;
+        $index++;
+    } else {
+        $index++;
+    }
+}
+
+echo $count;
+?>
