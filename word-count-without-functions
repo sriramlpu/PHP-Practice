@@ -6,7 +6,7 @@ $count = 0;
 
 while (isset($a[$index])) {
     if ($a[$index] == ' ') {
-        $wf = true;
+        $wf = false;
         $index++;
     } else if (!$wf) {
         $wf = true;
