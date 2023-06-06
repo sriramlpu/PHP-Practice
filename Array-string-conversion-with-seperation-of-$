@@ -1,0 +1,15 @@
+<?php
+
+$arr=array("sai","shanth","charan","rohith","yateesh");
+
+$str="";
+
+foreach($arr as $value){
+
+    $str .= $value."$";
+
+}
+
+echo $str;
+
+?>
